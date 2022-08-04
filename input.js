@@ -24,9 +24,9 @@ const handleUserInput = (key) => {
     connection.write("Move: right");
   } else if (key === "h") {
     connection.write("Say: Hello there!");  
-  } else if (key === "t") {
-    connection.write("Say: Try spinning, that's a good trick!");
-  } else if (key === "y") {
+  } else if (key === "i") {
+    connection.write("Say: Wind's howling...");
+  } else if (key === "m") {
     connection.write("Say: oH hAi MaRk!");
   }
 }
